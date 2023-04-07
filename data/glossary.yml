@@ -1,9 +1,10 @@
-home: Home
-about: About
-product: Features
-solution: Solution
-news: News
-contact: Contact
-list: List
-cta1: See the demo
-cta2: Documentation
+de:
+  home: Home
+  about: About
+  product: Features
+  solution: Solution
+  news: News
+  contact: Contact
+  list: List
+  cta1: See the demo
+  cta2: Documentation

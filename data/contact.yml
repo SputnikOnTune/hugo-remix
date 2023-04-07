@@ -1,8 +1,9 @@
-backgroundTitle: Contact
-detail: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
-  provident, eum eligendi blanditiis ex explica
-location: Zürich
-subtitle:
-title: <span>Contact</span> Us
-languages: English, French, German
-email: contact@example.org
+de:
+  backgroundTitle: Contact
+  detail: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
+    provident, eum eligendi blanditiis ex explica
+  location: Zürich
+  subtitle:
+  title: <span>Contact</span> Us
+  languages: English, French, German
+  email: contact@example.org
