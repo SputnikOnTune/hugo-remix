@@ -16,9 +16,6 @@ local_backend: true
 collections:
   - name: "sections"
     label: "Global settings"
-    i18n:
-      structure: single_file
-      locales: [ de ]
     files:
       - file: "data/home.yml"
         label: "Home"
