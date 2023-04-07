@@ -9,19 +9,12 @@ defaultContentLanguage = 'en'
 
 
 # Languages
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
+[Languages.de]
+languageName = "De"
+languageCode = "de-ch"
+contentDir = "content/de"
 weight = 1
-mark = "EN"
-
-[Languages.fr]
-languageName = "fr"
-languageCode = "fr-fr"
-contentDir = "content/fr"
-weight = 2
-mark = "FR"
+mark = "DE"
 
 
 [taxonomies]
