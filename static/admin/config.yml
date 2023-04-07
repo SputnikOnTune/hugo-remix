@@ -146,7 +146,7 @@ collections:
     fields:
       [
         { label: "Title", name: "title", widget: "string" },
-        { label: "Publish Date", name: "date", widget: "datetime", i18n: "duplicate" },
+        { label: "Publish Date", name: "date", widget: "datetime"},
         { label: "Cover Image", name: "image", widget: "image" },
         { label: "Summary", name: "summary", widget: "text" },
         { label: "Body", name: "body", widget: "markdown" },
