@@ -1,5 +1,5 @@
-{{ $data := index site.Data.header}}
-{{ $glossary := index site.Data.glossary}}
+{{ $data := index site.Data.header site.Language.Lang }}
+{{ $glossary := index site.Data.glossary site.Language.Lang }}
 
 {{ $scenes := index (index site.Data.scenes site.Language.Lang) "scenes"}}
 {{ $existScenes :=  site.Taxonomies.scenes }}

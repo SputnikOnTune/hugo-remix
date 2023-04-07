@@ -1,4 +1,4 @@
-{{ $data := index site.Data.scenes}}
+{{ $data := index site.Data.scenes site.Language.Lang }}
 
 
 {{ $scenes := index $data "scenes"}}
