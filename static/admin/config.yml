@@ -12,10 +12,20 @@ locale: 'de'
 # You need to run at the root of the project `npx netlify-cms-proxy-server`
 local_backend: true
 
+# i18n https://www.netlifycms.org/docs/beta-features/#i18n-support
+i18n:
+  structure: multiple_folders
+  locales: [ de, en ]
+  default_locale: de
+
+
 # collections configuration
 collections:
   - name: "sections"
     label: "Global settings"
+    i18n:
+      structure: single_file
+      locales: [ en, fr ]
     files:
       - file: "data/home.yml"
         label: "Home"
